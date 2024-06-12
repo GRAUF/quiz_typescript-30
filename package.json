@@ -1,0 +1,23 @@
+{
+  "name": "quiz_project-30",
+  "version": "1.1.0",
+  "description": "quiz_project",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error:  test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ghulam rauf khan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.8"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.20"
+  }
+}
