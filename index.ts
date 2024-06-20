@@ -58,10 +58,10 @@ let question2 = await inquirer.prompt([
     name: 'question2',
     message: 'Q#2 how to compile your code?',
     choices: [
-        'node.js',
-        'tsc',
-        'main.tsc',
-        "node.ts",
+        ' node.js ',
+        ' tsc ',
+        ' main.tsc ',
+        ' node.ts ',
             ]
 }
 

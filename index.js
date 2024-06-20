@@ -46,14 +46,14 @@ let question2 = await inquirer.prompt([
         name: 'question2',
         message: 'Q#2 how to compile your code?',
         choices: [
-            'node.js',
-            '.tsc',
-            'main.tsc',
-            "node.ts",
+            ' node.js ',
+            ' tsc ',
+            ' main.tsc ',
+            ' node.ts ',
         ]
     }
 ]);
-if (question2.question2 == "main.tsc", ".tsc") {
+if (question2.question2 == "main.tsc", "tsc") {
     console.log(chalk.bgGreenBright.bold("RIGHT ANSWER", "Congratulations"));
     point++;
 }
