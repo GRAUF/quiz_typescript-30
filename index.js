@@ -19,7 +19,7 @@ let question1 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question1',
-        message: 'what is typescript file name?',
+        message: 'Q#1 what is typescript file name?',
         choices: [
             '.js',
             '.html',
@@ -44,7 +44,7 @@ let question2 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question2',
-        message: 'how to compile your code?',
+        message: 'Q#2 how to compile your code?',
         choices: [
             'node.js',
             '.tsc',
@@ -69,7 +69,7 @@ let question3 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question3',
-        message: 'which one is variables?,see?',
+        message: 'Q#3 which one is variables?,see?',
         choices: [
             'let',
             'not',
@@ -93,7 +93,7 @@ let question4 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question4',
-        message: 'TypeScript is an open-source object-oriented language?',
+        message: 'Q#4 TypeScript is an open-source object-oriented language?',
         choices: [
             'False',
             'True',
@@ -115,7 +115,7 @@ let question5 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question5',
-        message: ' Variables can be declared using: var, let, NOT, and const.\n which one is not variable?\n',
+        message: 'Q#5 Variables can be declared using: var, let, NOT, and const.\n which one is not variable?\n',
         choices: [
             'var',
             'const',
@@ -139,7 +139,7 @@ let question6 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question6',
-        message: 'String is primitive data type that is not used for store text data? ',
+        message: 'Q#6 String is primitive data type that is not used for store text data? ',
         choices: [
             'True',
             'False',
@@ -161,7 +161,7 @@ let question7 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question7',
-        message: 'Which of the following is not a JavaScript data type?',
+        message: 'Q#7 Which of the following is not a JavaScript data type?',
         choices: [
             'String',
             'Number',
@@ -185,7 +185,7 @@ let question8 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question8',
-        message: 'let fruits: string[] = Name of this function?',
+        message: 'Q#8 let fruits: string[] = Name of this function?',
         choices: [
             'if',
             'else if',
@@ -210,7 +210,7 @@ let question9 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question9',
-        message: 'The for loop is used to execute a block of code a given number of times, thats right?',
+        message: 'Q#9 The for loop is used to execute a block of code a given number of times, thats right?',
         choices: [
             'True',
             'False',
@@ -232,7 +232,7 @@ let question10 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question10',
-        message: '("Hello ", "Steve"); // returns ??? "..." ',
+        message: 'Q#10 ("Hello ", "Steve"); // returns ??? "..." ',
         choices: [
             'SteveHello',
             'Hello',
@@ -258,7 +258,7 @@ let question11 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question11',
-        message: 'Which of the following is a valid TypeScript primitive data type?',
+        message: 'Q#11 Which of the following is a valid TypeScript primitive data type?',
         choices: [
             'array',
             'tuple ',
@@ -282,9 +282,9 @@ let question12 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question12',
-        message: 'What is the purpose of the else clause in an if-else statement?',
+        message: 'Q#12 What is the purpose of the else clause in an if-else statement?',
         choices: [
-            '(a) To specify an alternative block of code to execute if the condition',
+            '(a) To specify an alternative block of code to Not execute if the condition',
             '(b) To specify an alternative block of code to execute if the condition',
             '(c) To repeat the same block of code d) To exit the program',
             '(d) To exit the program',
@@ -306,7 +306,7 @@ let question13 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question13',
-        message: ' What is the syntax for an if statement in TypeScript?',
+        message: 'Q#13 What is the syntax for an if statement in TypeScript?',
         choices: [
             '(a) if (condition) => { code }',
             '(b) if [condition] { code }',
@@ -330,7 +330,7 @@ let question14 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question14',
-        message: ' What is the purpose of the if-else statement in TypeScript?',
+        message: 'Q#14 What is the purpose of the if-else statement in TypeScript?',
         choices: [
             '(a) To declare variables',
             '(b) To loop through arrays',
@@ -354,7 +354,7 @@ let question15 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question15',
-        message: 'What is the purpose of the break statement in a loop in TypeScript?',
+        message: 'Q#15 What is the purpose of the break statement in a loop in TypeScript?',
         choices: [
             '(a) To exit the loop immediately',
             '(b) To execute the loop body again',
@@ -378,7 +378,7 @@ let question16 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question16',
-        message: 'What is the purpose of the for loop in TypeScript?',
+        message: 'Q#16 What is the purpose of the for loop in TypeScript?',
         choices: [
             '(a) To execute a block of code repeatedly for a specified number of iterations',
             '(b) To execute a block of code only once',
@@ -402,7 +402,7 @@ let question17 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question17',
-        message: 'What is the purpose of the while loop in TypeScript?',
+        message: 'Q#17 What is the purpose of the while loop in TypeScript?',
         choices: [
             '(A) To execute a block of code repeatedly while a condition is true',
             '(B) To execute a block of code only once',
@@ -426,7 +426,7 @@ let question18 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question18',
-        message: ' How many conditions can an if-else statement have?',
+        message: 'Q#18 How many conditions can an if-else statement have?',
         choices: [
             '(a) Only one',
             '(b) Two',
@@ -450,7 +450,7 @@ let question19 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question19',
-        message: ' What is the difference between if-else and switch statements?',
+        message: 'Q#19 What is the difference between if-else and switch statements?',
         choices: [
             '(a) If-else is used for conditions, switch is used for values',
             '(b) If-else is used for values, switch is used for conditions',
@@ -474,7 +474,7 @@ let question20 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question20',
-        message: '  Can an if-else statement be nested? it`s possible ?',
+        message: 'Q#20  Can an if-else statement be nested? it`s possible ?',
         choices: [
             '(a) Only if the conditions are different',
             '(b) Only if the conditions are the same',
@@ -498,7 +498,7 @@ let question21 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question21',
-        message: '  What happens if the condition in an if statement is not a boolean value?',
+        message: 'Q#21  What happens if the condition in an if statement is not a boolean value?',
         choices: [
             '(a) It throws an error',
             '(b) It converts the value to a boolean',
@@ -522,7 +522,7 @@ let question22 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question22',
-        message: ' Can an if-else statement be used with a ternary operator?',
+        message: 'Q#22 Can an if-else statement be used with a ternary operator?',
         choices: [
             '(a) Yes',
             '(b) No',
@@ -546,7 +546,7 @@ let question23 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question23',
-        message: ' What is the purpose of the else if clause in an if-else statement?',
+        message: 'Q#23 What is the purpose of the else if clause in an if-else statement?',
         choices: [
             '(a) To exit the program',
             '(b) To specify an alternative block of code to execute if the first condition is false',
@@ -570,7 +570,7 @@ let question24 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question24',
-        message: ' What is the benefit of using type annotations for function parameters and return values?',
+        message: 'Q#24 What is the benefit of using type annotations for function parameters and return values?',
         choices: [
             '(A) Makes functions more complex to write.',
             '(B) Improves code readability, maintainability, and catches potential errors early.',
@@ -594,7 +594,7 @@ let question25 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question25',
-        message: ' 	What are the purposes of parameters in a function?',
+        message: 'Q#25 	What are the purposes of parameters in a function?',
         choices: [
             '(A) To define the names of variables used within the function.',
             '(B) To specify the return value of the function. ',
@@ -618,7 +618,7 @@ let question26 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question26',
-        message: ' Can you define optional parameters in TypeScript functions?',
+        message: 'Q#26 Can you define optional parameters in TypeScript functions?',
         choices: [
             '(A) No, all parameters must be mandatory.',
             '(B) Yes, by adding a question mark (?) after the parameter name.',
@@ -642,10 +642,10 @@ let question27 = await inquirer.prompt([
     {
         type: 'list',
         name: 'question27',
-        message: ' 	What is the syntax for defining a function in TypeScript?',
+        message: 'Q#27 	What is the syntax for defining a function in TypeScript?',
         // >>>>>>>>>>>>>>>>>>>>>>>>>TypeScript>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-        //          function functionName(parameters: parameterTypes): returnType {
-        //                            Function body }
+        // "function functionName"("parameters:" "parameterTypes"): "returnType" {
+        //                        "Function body" }
         choices: [
             'A. All of the above.',
             'B. Only option A is correct.',
@@ -655,6 +655,79 @@ let question27 = await inquirer.prompt([
     }
 ]);
 if (question27.question27 == "A. All of the above.") {
+    console.log(chalk.bgGreenBright.bold("RIGHT ANSWER", "Congratulations"));
+    point++;
+}
+else {
+    console.log(chalk.bgRed.bold("Oops! YOU LOST", "Try Again!"));
+}
+//QUESTION 28
+console.log(chalk.blueBright.bold("\n"));
+let question28 = await inquirer.prompt([
+    {
+        type: 'list',
+        name: 'question28',
+        message: 'Q#28 	What are the two types of enums?',
+        // >>>>>>>>>>>>>>>>>>>>>>>>>TypeScript>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        //          function functionName(parameters: parameterTypes): returnType {
+        //                            Function body }
+        choices: [
+            'A. Number and Boolean',
+            'B. String and Boolean',
+            'C. Number and Number Array',
+            'D. String and Number  ',
+        ]
+    }
+]);
+if (question28.question28 == "D. String and Number") {
+    console.log(chalk.bgGreenBright.bold("RIGHT ANSWER", "Congratulations"));
+    point++;
+}
+else {
+    console.log(chalk.bgRed.bold("Oops! YOU LOST", "Try Again!"));
+}
+//QUESTION 29
+console.log(chalk.blueBright.bold("\n"));
+let question29 = await inquirer.prompt([
+    {
+        type: 'list',
+        name: 'question29',
+        message: 'Q#29 	What type of assignment is this variable, `const fullName: string = Dylan foward?',
+        // >>>>>>>>>>>>>>>>>>>>>>>>>TypeScript>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        //          function functionName(parameters: parameterTypes): returnType {
+        //                            Function body }
+        choices: [
+            'A. implicit',
+            'B. explicit',
+        ]
+    }
+]);
+if (question29.question29 == "B. explicit") {
+    console.log(chalk.bgGreenBright.bold("RIGHT ANSWER", "Congratulations"));
+    point++;
+}
+else {
+    console.log(chalk.bgRed.bold("Oops! YOU LOST", "Try Again!"));
+}
+//QUESTION 30
+console.log(chalk.blueBright.bold("\n"));
+let question30 = await inquirer.prompt([
+    {
+        type: 'list',
+        name: 'question30',
+        message: 'Q#30 	What are the three main `simple types` in TypeScript?',
+        // >>>>>>>>>>>>>>>>>>>>>>>>>TypeScript>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        //          function functionName(parameters: parameterTypes): returnType {
+        //                            Function body }
+        choices: [
+            'A. object,string,number',
+            'B. string,number,boolean',
+            'C. number,boolean,object',
+            'D. boolean,array,object',
+        ]
+    }
+]);
+if (question30.question30 == "B. string,number,boolean") {
     console.log(chalk.bgGreenBright.bold("RIGHT ANSWER", "Congratulations"));
     point++;
 }
@@ -708,3 +781,8 @@ console.log(chalk.greenBright.bold("QUESTION 24: (B) "));
 console.log(chalk.greenBright.bold("QUESTION 25: (A) "));
 console.log(chalk.greenBright.bold("QUESTION 26: (B) "));
 console.log(chalk.greenBright.bold("QUESTION 27: (A) "));
+console.log(chalk.greenBright.bold("QUESTION 28: (D) "));
+console.log(chalk.greenBright.bold("QUESTION 29: (B) "));
+console.log(chalk.greenBright.bold("QUESTION 30: (B) "));
+console.log(chalk.greenBright.bold("\n"));
+console.log(chalk.greenBright.bold("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< GOOD >>> BYE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"));
